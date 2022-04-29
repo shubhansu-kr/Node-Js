@@ -32,4 +32,4 @@ console.log(fs.readdirSync('.'));
 // console.log(fs) ;
 // console all the object properties 
 
-console.log(fs.readFileSync('./ModuleSystem/02_FileSystem.js', 'utf8'));
+console.log(fs.readFileSync('./CommonModuleSystem/02_FileSystem.js', 'utf8'));
