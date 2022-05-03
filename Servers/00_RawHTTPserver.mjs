@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     res.end() ;
 });
 
-server.listen(4040, ()=>{
+server.listen(8080, ()=>{
     console.log("Hello there! Surver up and running");
 });
 
