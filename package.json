@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-codedamn",
+  "version": "1.0.0",
+  "description": "Course Node js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhansu-kr/Node-Js.git"
+  },
+  "author": "shubhansu-kr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhansu-kr/Node-Js/issues"
+  },
+  "homepage": "https://github.com/shubhansu-kr/Node-Js#readme"
+}
