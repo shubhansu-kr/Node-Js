@@ -4,7 +4,9 @@
   "description": "Course Node js ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./CodeCamp/Basics/00_Intro.js",
+    "dev": "nodemon ./CodeCamp/Basics/00_Intro.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/shubhansu-kr/Node-Js#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
