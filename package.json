@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/shubhansu-kr/Node-Js#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "lodash": "^4.17.21"
   },
