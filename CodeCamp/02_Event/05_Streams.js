@@ -7,10 +7,10 @@
 
 
 // Used the script to create a big file 
-const { writeFileSync } = require('fs');
-for (let index = 0; index < 10000; index++) {
-    writeFileSync('./Rummy.txt', `Hello World ${index} \n`, { flag: 'a' });
-}
+// const { writeFileSync } = require('fs');
+// for (let index = 0; index < 10000; index++) {
+//     writeFileSync('./Rummy.txt', `Hello World ${index} \n`, { flag: 'a' });
+// }
 
 // Stream is used to handle big files because variables in js may 
 // not be as capable of handling such big memory and it's also 
