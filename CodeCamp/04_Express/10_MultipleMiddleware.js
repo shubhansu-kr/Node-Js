@@ -19,7 +19,11 @@ app.get('/api/products', (req, res)=>{
     res.status(200).send('Product');
 });
 
-app.get('/about/items', (req, res)=>{
+// app.get('/api/items',[logger, authorise], (req, res)=>{
+//     res.status(200).send('Item');
+// });
+
+app.get('/api/items', (req, res)=>{
     res.status(200).send('Item');
 });
 
